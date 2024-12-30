@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_shadow_end_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:textSize="25dp"
+        android:text="Створіть аккаунт"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Введіть Login" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Введіть Email" />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Введіть Password" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:text="Зареєсруватися" />
+    <TextView
+        android:id="@+id/link_to_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:text="Увійти"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>
