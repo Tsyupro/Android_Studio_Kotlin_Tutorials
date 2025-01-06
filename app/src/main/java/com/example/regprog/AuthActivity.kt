@@ -42,6 +42,9 @@ class AuthActivity : AppCompatActivity() {
                     Toast.makeText(this,"User login Complete", Toast.LENGTH_LONG).show()
                     userLogin.text.clear()
                     userPass.text.clear()
+
+                    var intent = Intent(this,itemsActivity::class.java)
+                    startActivity(intent)
                 }
                 else{
                     Toast.makeText(this,"User login Fail", Toast.LENGTH_LONG).show()

@@ -15,6 +15,9 @@
         android:theme="@style/Theme.RegProg"
         tools:targetApi="31">
         <activity
+            android:name=".itemsActivity"
+            android:exported="false" />
+        <activity
             android:name=".AuthActivity"
             android:exported="false" />
         <activity
